@@ -20,4 +20,4 @@ copy package*.json ./
 run npm install
 copy . .
 expose 3000
-cmd ['node','index.js']
+cmd ["node","index.js"]
