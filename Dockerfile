@@ -19,5 +19,5 @@ workdir /app
 copy package*.json ./
 run npm install
 copy . .
-expost 3000
+expose 3000
 cmd ['node','index.js']
